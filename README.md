@@ -18,7 +18,7 @@ and start the development serverwith
 ## Logic in Python
 The actual logic is coded in python at https://github.com/balajimk/dijkstraPython
 
-## Using the application.
+## Using the application
 1. Double click on the page to add new vertex.
 2. Click on any vertex to select / deselect the vertex.
 3. When one vertex is selected, click on another vertex to connect with a edge. This will have a defauly weight/distance of 1.
