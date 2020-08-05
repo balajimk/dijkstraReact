@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Gotham Rounded", "Helvetica", "Century Gothic", "sans-serif";
+    text-shadow: 2px 2px 2px Gray;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.container {
+    width: 100%;
+    color: white;
+    border: 0;
+    /* solid rgb(194, 25, 53);*/
+    box-sizing: border-box;
+    min-height: calc(100vh - 2px);
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+svg {
+    border: 0;
+    min-height: calc(100vh - 8px);
+    min-width: calc(100vw - 8px);
+}
+
+.vertex {
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(20, 205, 238);
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid black;
+    border-style: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    position: fixed;
+}
+
+.edge {
+    stroke: rgb(122, 184, 184);
+    stroke-width: 5px;
+}
+
+.sourceV {
+    background-color: rgb(8, 111, 151);
+}
+
+.startV {
+    background-color: orange;
+}
+
+.targetV {
+    background-color: Green;
+}
+
+.pathV {
+    border: 2px solid rgb(199, 4, 111);
+}
+
+.sourceE {
+    stroke: orangered;
+}
+
+.pathE {
+    stroke: rgb(199, 4, 111);
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    border: 0px solid black;
+}
+
+.controls>div,
+.controls>div>input {
+    text-shadow: none;
+    padding-left: 5px;
+    font-size: 0.8em;
+    color: black;
+    vertical-align: middle;
+    height: 30px;
+    line-height: 30px;
+    border: 0px solid black;
+}
+
+.controls>div>input {
+    border: 1px solid gray;
+}
+
+text {
+    fill: Brown;
+    font-weight: bold;
+}
+
+.buttons>.button {
+    margin-left: 50px;
+    background-color:#007bff;
+    width: 200px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+}
+
+.buttons {
+    width: 700px;
+    display: flex;
+    margin: 10px;
+}
